@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <ImageView
+        android:id="@+id/image_onboarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/image">
+    </ImageView>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/modernAest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modern_aest"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="60sp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="323dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/butonMen"
+            android:layout_width="300dp"
+            android:layout_height="46dp"
+            app:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/butonWomen"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/butonWomen"
+            android:layout_width="300dp"
+            android:layout_height="46dp"
+            app:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/butonMen"
+            android:textColor="@color/black"
+            android:layout_marginTop="13dp"
+            android:fontFamily="sans-serif-medium"
+            >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_hav"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_in"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

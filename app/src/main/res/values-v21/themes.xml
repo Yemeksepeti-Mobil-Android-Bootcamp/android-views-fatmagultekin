@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="already_hav">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.02
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+</resources>

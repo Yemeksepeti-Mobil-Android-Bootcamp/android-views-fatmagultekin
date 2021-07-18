@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">UIDesign</string>
+    <string name="modern_aest"> Modern Aesthetic Fashion</string>
+    <string name="butonWomen">Shop women</string>
+    <string name="butonMen">Shop men</string>
+    <string name="already_hav">
+
+Already have account?
+</string>
+    <string name="log_in">
+
+Log In
+</string>
+    <string name="welcome_bac">
+
+Welcome Back!
+</string>
+    <string name="please_ente">
+
+Please enter your account here
+</string>
+    <string name="forgot_pass">
+
+Forgot password?
+</string>
+    <string name="or_continue">
+
+Or continue with
+</string>
+    <string name="don_t_have_">
+
+Don’t have any account?
+</string>
+    <string name="sign_up">
+
+Sign Up
+</string>
+    <string name="login">
+
+Login
+</string>
+    <string name="google">
+
+Google
+</string>
+
+
+</resources>
